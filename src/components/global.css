@@ -1,0 +1,89 @@
+table {
+  width: 90%;
+  padding: 10px;
+  border-collapse: collapse;
+  border: 1px solid hotpink;
+  margin: 10px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+thead {
+  background-color: hotpink;
+  color: #111;
+  padding: 10px;
+  text-align: center;
+}
+tr,
+td {
+  padding: 10px;
+  border: 1px solid hotpink;
+}
+table img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#gitRepo {
+  height: 200px;
+  width: 100%;
+}
+#gitRepo article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+#gitRepo article .userGrid img{
+    width: 350px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+#gitRepo article .userGrid h2{
+    text-align: center;
+}
+
+#gitRepo article .userGrid p{
+     text-align: center;
+
+}
+
+
+
+#countGrade{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: auto 0;
+text-align: center;
+
+}
+
+#countGrade article button{
+background-color: aliceblue;
+margin: 5px;
+text-transform: uppercase;
+border: none;
+
+font-size: 15px;
+font-weight: bold;
+padding: 10px;
+border-radius: 10px;
+
+}
+
+#countGrade article h1{
+  font-size: 30px;
+
+}
+
+#countGrade article button:hover{
+  background-color: gray;
+    border-color: green;
+    border: 1px solid;
+}
